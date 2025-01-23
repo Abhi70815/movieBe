@@ -3,6 +3,8 @@ import Image from "next/image";
 // import { useSession, signIn, signOut } from "next-auth/react";
 // import { useRouter } from "next/router";
 // import Loading from "@/components/Loading";
+let signIn;
+let signOut;
 
 export default function Auth() {
   // const { data: session, status } = useSession();
