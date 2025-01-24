@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import Image from "next/image";
 import Head from "next/head";
+=======
+// import Head from "next/head";
+import Image from "next/image";
+>>>>>>> 543133048fbcb1f3e3a39e25a5bda0e903cf076a
 // import { useSession, signIn, signOut } from "next-auth/react";
 import Loading from "@/components/Loading";
 let signIn;
@@ -14,9 +19,9 @@ export default function Auth() {
 
   return (
     <>
-      <Head>
+      // <Head>
         <title>Movie App | Backend</title>
-      </Head>
+      // </Head>
 
       <div className="container">
         <div className="loginfront flex flex-center">
