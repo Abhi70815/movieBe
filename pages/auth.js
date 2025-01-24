@@ -1,14 +1,16 @@
 import Image from "next/image";
 import Head from "next/head";
-import { useSession, signIn, signOut } from "next-auth/react";
+// import { useSession, signIn, signOut } from "next-auth/react";
 import Loading from "@/components/Loading";
+let signIn;
+let signOut
 
 export default function Auth() {
-  const { data: session, status } = useSession();
+  // const { data: session, status } = useSession();
 
-  if (status === "loading") {
-    return <Loading />;
-  }
+  // if (status === "loading") {
+  //   return <Loading />;
+  // }
 
   return (
     <>
@@ -27,7 +29,9 @@ export default function Auth() {
                 Abhishek Chaurasia
               </a>
             </p>
-            {session ? (
+            {
+            
+            "df" ? (
               <button className="mt-2" onClick={() => signOut()}>
                 Log Out Here
               </button>
