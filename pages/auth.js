@@ -1,4 +1,4 @@
-import Head from "next/head";
+// import Head from "next/head";
 import Image from "next/image";
 // import { useSession, signIn, signOut } from "next-auth/react";
 // import { useRouter } from "next/router";
@@ -32,9 +32,9 @@ export default function Auth() {
 
   return (
     <>
-      <Head>
+      // <Head>
         <title>Movie App | Backend</title>
-      </Head>
+      // </Head>
 
       <div className="container">
         <div className="loginfront flex flex-center">
